@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6943ed07a8d1e941b6fadc1c1abe348, type: 3}
+  m_Name: AtlasSettings STANDARD
+  m_EditorClassIdentifier: 
+  id: STANDARD
+  material: {fileID: 2100000, guid: 544c3acc8098d704582dfd92732c5ff6, type: 2}
+  properties:
+  - _MainTex
+  atlasCompression: 2
+  atlasFilterMode: 0
+  asTexArray: 0
+  texArraySize: {x: 64, y: 64}
+  textures:
+  - {fileID: 11400000, guid: 1c87f72859f74574bbbf3f2ccc9c7077, type: 2}
+  - {fileID: 11400000, guid: 58b6ecbf39f6d6740995bb11284d8741, type: 2}
+  - {fileID: 11400000, guid: cb3a367a576804e4b8916c9e082ac507, type: 2}
+  - {fileID: 11400000, guid: 66a23cdfbe5fac047907e2504e379871, type: 2}
+  - {fileID: 11400000, guid: e10f2ad87b9abfe44ac0938e7bbb4d36, type: 2}
+  - {fileID: 11400000, guid: 4c5a23ffc832bdd47a329b3d0d886056, type: 2}
+  - {fileID: 11400000, guid: 5f2cce55c98a57448aaca4e54f07ca3b, type: 2}
+  - {fileID: 11400000, guid: 1591a1e4427c8a548b78b53bd89fa278, type: 2}

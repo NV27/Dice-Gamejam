@@ -1,0 +1,11 @@
+The 666 Coins texture pack was created by Tom "voxel" Purnell
+https://thomaspurnell.com/
+https://voxel.itch.io/
+
+You can find 666 Coins here:
+https://coolfriends.itch.io/666-coins
+
+To install, double-click the Texturepack_666Coins_byTomVoxelPurnell.unitypackage and
+import the whole content. Then press "Update Textures Only" in the Initialize menu.
+Afterwards either press "Recreate Meshes" in Helpers, or "Recreate ALL Existing Meshes"
+in Initialize in order to update the current bloxel meshes' texture coordinates.

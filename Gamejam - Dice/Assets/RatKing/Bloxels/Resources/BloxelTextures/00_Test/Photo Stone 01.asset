@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1a03b3989e75624785358c77627786f, type: 3}
+  m_Name: Photo Stone 01
+  m_EditorClassIdentifier: 
+  ID: PHOTO_STONE_01
+  texture: {fileID: 2800000, guid: 080a324a71c4b1a4d912e5d1a7afd497, type: 3}
+  texturesSecondary:
+  - {fileID: 0}
+  countX: 4
+  countY: 4
+  cutInTexArray: 0
+  maxPixelWidth: 0
+  maxPixelHeight: 0
+  transparency: 0
+  noiseStrength: 0
+  noiseScale: 1
+  texAtlasIdx: 0
+  flags: 1
+  neighbourFlags: 1
+  composition:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  generateCollider: 1
+  tags: []
+  variables:
+    objects: []
+    serialized: []
+  Shelf: 00_Test
+  rect:
+    serializedVersion: 2
+    x: 0.01171875
+    y: 0.005859375
+    width: 0.5
+    height: 0.25
+  pos:
+  - {x: 0.01171875, y: 0.19335938}
+  - {x: 0.13671875, y: 0.19335938}
+  - {x: 0.26171875, y: 0.19335938}
+  - {x: 0.38671875, y: 0.19335938}
+  - {x: 0.01171875, y: 0.13085938}
+  - {x: 0.13671875, y: 0.13085938}
+  - {x: 0.26171875, y: 0.13085938}
+  - {x: 0.38671875, y: 0.13085938}
+  - {x: 0.01171875, y: 0.068359375}
+  - {x: 0.13671875, y: 0.068359375}
+  - {x: 0.26171875, y: 0.068359375}
+  - {x: 0.38671875, y: 0.068359375}
+  - {x: 0.01171875, y: 0.005859375}
+  - {x: 0.13671875, y: 0.005859375}
+  - {x: 0.26171875, y: 0.005859375}
+  - {x: 0.38671875, y: 0.005859375}
+  size: {x: 0.125, y: 0.0625}
+  arrayIdx: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000

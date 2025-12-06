@@ -503,6 +503,8 @@
 "Assets/RatKing/Bloxels/Scripts/SerializableDictionary/SerializableDictionary.cs"
 "Assets/RatKing/Bloxels/Scripts/SideExtraData.cs"
 "Assets/RatKing/Bloxels/Scripts/TextureAtlasSettings.cs"
+"Assets/Scripts/Bullet.cs"
+"Assets/Scripts/Gun.cs"
 "Assets/StarterAssets/FirstPersonController/Scripts/BasicRigidBodyPush.cs"
 "Assets/StarterAssets/FirstPersonController/Scripts/FirstPersonController.cs"
 "Assets/StarterAssets/InputSystem/StarterAssetsInputs.cs"

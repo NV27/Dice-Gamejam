@@ -1276,7 +1276,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dFourGun:
   - {fileID: 8935039300346353155, guid: eb0ba7fc1c4b6a84dbdbcaffcbb08b1a, type: 3}
+  dSixGun:
   - {fileID: 4733964070092386346, guid: 7b8847c2e24379247913fb0818e6c39d, type: 3}
+  dTwelveGun:
+  - {fileID: 5608464720982754483, guid: 48541d1ea2bd87348a0215d5e305e7b3, type: 3}
   currentGun: {fileID: 2001366985}
   gunPoint: {fileID: 275796423}
 --- !u!1001 &7288094137546172433

@@ -504,6 +504,7 @@
 "Assets/RatKing/Bloxels/Scripts/SideExtraData.cs"
 "Assets/RatKing/Bloxels/Scripts/TextureAtlasSettings.cs"
 "Assets/Scripts/Bullet.cs"
+"Assets/Scripts/DicePlayer.cs"
 "Assets/Scripts/Gun.cs"
 "Assets/StarterAssets/FirstPersonController/Scripts/BasicRigidBodyPush.cs"
 "Assets/StarterAssets/FirstPersonController/Scripts/FirstPersonController.cs"

@@ -1274,6 +1274,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 360985227a43c0b44a7d80d95b42bbb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dFourGun:
+  - {fileID: 8935039300346353155, guid: eb0ba7fc1c4b6a84dbdbcaffcbb08b1a, type: 3}
+  - {fileID: 4733964070092386346, guid: 7b8847c2e24379247913fb0818e6c39d, type: 3}
   currentGun: {fileID: 2001366985}
   gunPoint: {fileID: 275796423}
 --- !u!1001 &7288094137546172433

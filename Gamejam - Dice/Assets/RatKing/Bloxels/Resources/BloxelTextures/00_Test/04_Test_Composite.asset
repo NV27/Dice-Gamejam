@@ -39,11 +39,11 @@ MonoBehaviour:
   Shelf: 00_Test
   rect:
     serializedVersion: 2
-    x: 0.7792969
+    x: 0.53515625
     y: 0.005859375
-    width: 0.109375
+    width: 0.21875
     height: 0.109375
   pos:
-  - {x: 0.7792969, y: 0.005859375}
-  size: {x: 0.109375, y: 0.109375}
+  - {x: 0.53515625, y: 0.005859375}
+  size: {x: 0.21875, y: 0.109375}
   arrayIdx: 00000000

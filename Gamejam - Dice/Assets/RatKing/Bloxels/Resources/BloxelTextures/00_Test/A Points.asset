@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: A Points
   m_EditorClassIdentifier: 
   ID: TEST_A_POINTS
-  texture: {fileID: 2800000, guid: 47c61f7a4829a9148b5e963573fb6a00, type: 3}
+  texture: {fileID: 2800000, guid: cf1602648608cff4983bc957d72849b2, type: 3}
   texturesSecondary: []
   countX: 2
   countY: 2

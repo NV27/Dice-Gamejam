@@ -8,6 +8,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 840332333592613874, guid: eb0ba7fc1c4b6a84dbdbcaffcbb08b1a, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 69a8dbce73cbb064db71d9dd5718ff60, type: 2}
+    - target: {fileID: 840332333592613874, guid: eb0ba7fc1c4b6a84dbdbcaffcbb08b1a, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 69a8dbce73cbb064db71d9dd5718ff60, type: 2}
+    - target: {fileID: 874216694551780228, guid: eb0ba7fc1c4b6a84dbdbcaffcbb08b1a, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 3696990b7eee7ee45a0995d7a68504c6, type: 2}
     - target: {fileID: 3603959619851784060, guid: eb0ba7fc1c4b6a84dbdbcaffcbb08b1a, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5
@@ -68,6 +80,10 @@ PrefabInstance:
       propertyPath: bulletDamage
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 6639095286612532508, guid: eb0ba7fc1c4b6a84dbdbcaffcbb08b1a, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 69a8dbce73cbb064db71d9dd5718ff60, type: 2}
     - target: {fileID: 8678545068442197825, guid: eb0ba7fc1c4b6a84dbdbcaffcbb08b1a, type: 3}
       propertyPath: m_Mesh
       value: 

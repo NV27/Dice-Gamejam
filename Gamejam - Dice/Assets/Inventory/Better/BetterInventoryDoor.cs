@@ -2,14 +2,16 @@ using UnityEngine;
 
 public class BetterInventoryDoor : MonoBehaviour
 {
+    public GameObject doorRoot;
     public string requiredItem1 = "Key1";
     public string requiredItem2 = "Key2";
     public string requiredItem3 = "Key3";
     public string requiredItem4 = "Key4";
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerStay(Collider other)
     {
-        var inventory = other.GetComponent<BetterInventory>();
+        var inventory = other.GetComponentInParent<BetterInventory>();
+        Debug.Log("Door trigger hit by: " + other.name);
 
         if (
         inventory != null 
@@ -19,7 +21,8 @@ public class BetterInventoryDoor : MonoBehaviour
         && inventory.HasItem(requiredItem4)
         )
         {
-            Destroy(gameObject);
+            Debug.Log("Destroy Door");
+            Destroy(doorRoot);
         }
     }
 }

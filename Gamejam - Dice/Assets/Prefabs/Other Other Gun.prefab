@@ -49,8 +49,16 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5096402374615609084, guid: eb0ba7fc1c4b6a84dbdbcaffcbb08b1a, type: 3}
+      propertyPath: fireType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5096402374615609084, guid: eb0ba7fc1c4b6a84dbdbcaffcbb08b1a, type: 3}
       propertyPath: bulletSpeed
       value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5096402374615609084, guid: eb0ba7fc1c4b6a84dbdbcaffcbb08b1a, type: 3}
+      propertyPath: bulletDamage
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8678545068442197825, guid: eb0ba7fc1c4b6a84dbdbcaffcbb08b1a, type: 3}
       propertyPath: m_Mesh

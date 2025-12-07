@@ -6,6 +6,8 @@ public class Bullet : MonoBehaviour
 
     float bulletSpeed = 0.0f;
 
+    int damage = 0;
+
     Rigidbody rb;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -29,5 +31,15 @@ public class Bullet : MonoBehaviour
     public void SetSpeed(float speed)
     {
         bulletSpeed = speed;
+    }
+
+    public void SetDamage(int dmg)
+    {
+        damage = dmg;
+    }
+
+    public int GetDamage()
+    {
+        return damage;
     }
 }

@@ -143,12 +143,16 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5096402374615609084, guid: eb0ba7fc1c4b6a84dbdbcaffcbb08b1a, type: 3}
+      propertyPath: bulletLife
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5096402374615609084, guid: eb0ba7fc1c4b6a84dbdbcaffcbb08b1a, type: 3}
       propertyPath: bulletSpeed
-      value: 100
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 5096402374615609084, guid: eb0ba7fc1c4b6a84dbdbcaffcbb08b1a, type: 3}
       propertyPath: bulletDamage
-      value: 20
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 8009963805075479762, guid: eb0ba7fc1c4b6a84dbdbcaffcbb08b1a, type: 3}
       propertyPath: m_Enabled

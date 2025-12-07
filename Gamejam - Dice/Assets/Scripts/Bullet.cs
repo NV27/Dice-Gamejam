@@ -8,13 +8,15 @@ public class Bullet : MonoBehaviour
 
     int damage = 0;
 
+    public float bulletLife = 2.0f;
+
     Rigidbody rb;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-        Destroy(gameObject, 5.0f);
+        Destroy(gameObject, bulletLife);
     }
 
     // Update is called once per frame
@@ -43,4 +45,8 @@ public class Bullet : MonoBehaviour
         return damage;
     }
 
+    public void SetLife(float life)
+    {
+        bulletLife = life;
+    }
 }

@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8011945260546244842
+--- !u!114 &-7767473901163336486
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -19,7 +19,7 @@ MonoBehaviour:
   Rot: 0
   mesh: {fileID: -6180517981816816411, guid: 8cabaf6e8748372488bceb75946d02bd, type: 3}
   Type: {fileID: 11400000}
-  ColliderTemplate: {fileID: -8011945260546244842}
+  ColliderTemplate: {fileID: -7767473901163336486}
   sideIsEmpty: 7
   sideIsFullWall: 0
   innerDatas:
@@ -7291,7 +7291,7 @@ MonoBehaviour:
         dir: 0
         rot: 0
         sideHasInnerClippedVertices: 1
---- !u!114 &-7490480983716804703
+--- !u!114 &-169150681491141233
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7310,7 +7310,7 @@ MonoBehaviour:
   Rot: 3
   mesh: {fileID: -6180517981816816411, guid: 8cabaf6e8748372488bceb75946d02bd, type: 3}
   Type: {fileID: 11400000}
-  ColliderTemplate: {fileID: -7490480983716804703}
+  ColliderTemplate: {fileID: -169150681491141233}
   sideIsEmpty: 35
   sideIsFullWall: 0
   innerDatas:
@@ -14582,7 +14582,38 @@ MonoBehaviour:
         dir: 0
         rot: 0
         sideHasInnerClippedVertices: 0
---- !u!114 &-6228593937186165726
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d233f48b987188a4dadddfd5d3a0b895, type: 3}
+  m_Name: Slope Corner Out
+  m_EditorClassIdentifier: 
+  ID: SLOPE_CORNER_OUT
+  shortDesc: Slope Corner O1
+  mesh: {fileID: -6180517981816816411, guid: 8cabaf6e8748372488bceb75946d02bd, type: 3}
+  colliderType: {fileID: 0}
+  flag: 1
+  neighborFlags: 1
+  possibleRotations: 15
+  innerDirHandlings:
+  - type: 1
+    dirRotate: 0
+    hasPreferredDir: 1
+    preferredDir: 0
+    preferredDirAddAngle: 180
+  Shelf: 02_Slopes
+  Templates:
+  - {fileID: -7767473901163336486}
+  - {fileID: 5899151733054685214}
+  - {fileID: 8870049663406127474}
+  - {fileID: -169150681491141233}
+--- !u!114 &5899151733054685214
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -14601,7 +14632,7 @@ MonoBehaviour:
   Rot: 1
   mesh: {fileID: -6180517981816816411, guid: 8cabaf6e8748372488bceb75946d02bd, type: 3}
   Type: {fileID: 11400000}
-  ColliderTemplate: {fileID: -6228593937186165726}
+  ColliderTemplate: {fileID: 5899151733054685214}
   sideIsEmpty: 21
   sideIsFullWall: 0
   innerDatas:
@@ -21873,38 +21904,7 @@ MonoBehaviour:
         dir: 0
         rot: 0
         sideHasInnerClippedVertices: 1
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d233f48b987188a4dadddfd5d3a0b895, type: 3}
-  m_Name: Slope Corner Out
-  m_EditorClassIdentifier: 
-  ID: SLOPE_CORNER_OUT
-  shortDesc: Slope Corner O1
-  mesh: {fileID: -6180517981816816411, guid: 8cabaf6e8748372488bceb75946d02bd, type: 3}
-  colliderType: {fileID: 0}
-  flag: 1
-  neighborFlags: 1
-  possibleRotations: 15
-  innerDirHandlings:
-  - type: 1
-    dirRotate: 0
-    hasPreferredDir: 1
-    preferredDir: 0
-    preferredDirAddAngle: 180
-  Shelf: 02_Slopes
-  Templates:
-  - {fileID: -8011945260546244842}
-  - {fileID: -6228593937186165726}
-  - {fileID: 5320505805816202846}
-  - {fileID: -7490480983716804703}
---- !u!114 &5320505805816202846
+--- !u!114 &8870049663406127474
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -21923,7 +21923,7 @@ MonoBehaviour:
   Rot: 2
   mesh: {fileID: -6180517981816816411, guid: 8cabaf6e8748372488bceb75946d02bd, type: 3}
   Type: {fileID: 11400000}
-  ColliderTemplate: {fileID: 5320505805816202846}
+  ColliderTemplate: {fileID: 8870049663406127474}
   sideIsEmpty: 49
   sideIsFullWall: 0
   innerDatas:

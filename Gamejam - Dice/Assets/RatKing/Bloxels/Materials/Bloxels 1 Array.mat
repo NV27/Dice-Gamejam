@@ -95,10 +95,10 @@ Material:
     - _EnvironmentReflections: 1
     - _Float0: 1.12
     - _GlossMapScale: 1
-    - _Glossiness: 0
+    - _Glossiness: 0.098
     - _GlossyReflections: 1
     - _Max: 2
-    - _Metallic: 0.5
+    - _Metallic: 0
     - _Min: -2
     - _Mode: 0
     - _NoiseFactor: 0

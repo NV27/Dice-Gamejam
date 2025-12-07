@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: A Stones
   m_EditorClassIdentifier: 
   ID: TEST_A_STONES
-  texture: {fileID: 2800000, guid: cc07952850c6b1e46b9ba4d30ca03a02, type: 3}
+  texture: {fileID: 2800000, guid: 6963fda03b74b084898bba42a4b65167, type: 3}
   texturesSecondary: []
   countX: 2
   countY: 2

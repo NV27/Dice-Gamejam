@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8126034480408147618
+--- !u!114 &-6655398781855570939
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -19,7 +19,7 @@ MonoBehaviour:
   Rot: 0
   mesh: {fileID: 6467940618318284197, guid: 8cabaf6e8748372488bceb75946d02bd, type: 3}
   Type: {fileID: 11400000}
-  ColliderTemplate: {fileID: -8126034480408147618}
+  ColliderTemplate: {fileID: -6655398781855570939}
   sideIsEmpty: 54
   sideIsFullWall: 0
   innerDatas:
@@ -6679,10 +6679,10 @@ MonoBehaviour:
     preferredDirAddAngle: -1
   Shelf: 01_Standard
   Templates:
-  - {fileID: -8126034480408147618}
-  - {fileID: 8314117376561475909}
-  - {fileID: 2864902713203776945}
---- !u!114 &2864902713203776945
+  - {fileID: -6655398781855570939}
+  - {fileID: 8876638743900917194}
+  - {fileID: 4833102929009492331}
+--- !u!114 &4833102929009492331
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6701,7 +6701,7 @@ MonoBehaviour:
   Rot: 1
   mesh: {fileID: 6467940618318284197, guid: 8cabaf6e8748372488bceb75946d02bd, type: 3}
   Type: {fileID: 11400000}
-  ColliderTemplate: {fileID: 2864902713203776945}
+  ColliderTemplate: {fileID: 4833102929009492331}
   sideIsEmpty: 45
   sideIsFullWall: 0
   innerDatas:
@@ -13253,7 +13253,7 @@ MonoBehaviour:
         dir: 0
         rot: 0
         sideHasInnerClippedVertices: 0
---- !u!114 &8314117376561475909
+--- !u!114 &8876638743900917194
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -13272,7 +13272,7 @@ MonoBehaviour:
   Rot: 0
   mesh: {fileID: 6467940618318284197, guid: 8cabaf6e8748372488bceb75946d02bd, type: 3}
   Type: {fileID: 11400000}
-  ColliderTemplate: {fileID: 8314117376561475909}
+  ColliderTemplate: {fileID: 8876638743900917194}
   sideIsEmpty: 27
   sideIsFullWall: 0
   innerDatas:
